@@ -6,6 +6,7 @@ public class Whip extends CondimentDecorator{
     Beverage beverage;
 
     public Whip (Beverage beverage){
+        this.beverage.setWhip(true);
         this.beverage = beverage;
     }
 

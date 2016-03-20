@@ -6,6 +6,7 @@ public class Soy extends CondimentDecorator{
     Beverage beverage;
 
     public Soy (Beverage beverage){
+        this.beverage.setSoy(true);
         this.beverage = beverage;
     }
 

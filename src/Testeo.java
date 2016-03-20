@@ -9,7 +9,6 @@ public class Testeo {
         Beverage espreso = new Espreso();
         System.out.println(espreso.getDescription()+" coste: "+espreso.cost()+"E");
 
-
         Beverage descafeinado = new Descoffee();
         descafeinado = new Mocha (descafeinado);
         descafeinado = new Mocha (descafeinado);
@@ -20,9 +19,7 @@ public class Testeo {
         cafeSolo = new Milk (cafeSolo);
         cafeSolo = new Mocha (cafeSolo);
         cafeSolo = new Whip (cafeSolo);
-        System.out.println(cafeSolo.getDescription()+" coste: "+cafeSolo.cost()+"E");
-
-
+        System.out.println(cafeSolo.getDescription()+" coste: "+cafeSolo.cost()+"E "+cafeSolo.isMilk());
 
     }
 }

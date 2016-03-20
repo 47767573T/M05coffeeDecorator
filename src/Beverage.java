@@ -3,7 +3,7 @@
  */
 public abstract class Beverage {
 
-    String description = "Desconicida";
+    String description = "Desconocida";
     boolean milk;
     boolean mocha;
     boolean soy;
@@ -52,6 +52,4 @@ public abstract class Beverage {
     public void setWhip(boolean whip) {
         this.whip = whip;
     }
-
-
 }

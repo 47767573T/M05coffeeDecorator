@@ -6,7 +6,9 @@ public class Mocha extends CondimentDecorator{
     Beverage beverage;
 
     public Mocha (Beverage beverage){
+        this.beverage.setMocha(true);
         this.beverage = beverage;
+
     }
 
     @Override
